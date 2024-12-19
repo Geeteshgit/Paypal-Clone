@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d35fb68c76.js" crossorigin="anonymous"></script>
+    <title>Paypal Clone</title>
+</head>
+<body>
+
+    <!--Header-->
+
+    <header id="header" class="w-[90%] max-w-[1080px] h-[60px] laptop:h-[70px] mx-auto flex justify-between items-center py-1 laptop:py-2.5 relative">
+        <button class="laptop:hidden text-xs font-bold text-[#0070BA] bg-transparent border border-[#0070BA] rounded-[50px] px-4 py-2.5 flex gap-2 items-baseline"><i class="fa-solid fa-bars text-[#0070BA]"></i>Menu</button>
+        <a href="#"><div class="absolute left-1/2 top-1/4 h-[30px] w-[26px] bg-cover bg-no-repeat bg-left laptop:h-[43px] laptop:w-[136px] laptop:bg-contain laptop:static" style="background-image: url(./assets/images/paypal-logo.svg);"></div></a>
+        <nav id="navbar">
+            <ul class="hidden laptop:block cursor-pointer text-sm opacity-85">
+                <li class="group inline-block px-5 py-6 border-b-4 border-transparent hover:border-blue-600 font-semibold">INDIVIDUAL<i class="fa-solid fa-angle-down pl-2 group-hover:-rotate-180 duration-300"></i></li>
+                <li class="group inline-block px-5 py-6 border-b-4 border-transparent hover:border-blue-600 font-semibold">BUSINESS<i class="fa-solid fa-angle-down pl-2 group-hover:-rotate-180 duration-300"></i></li>
+                <li class="group inline-block px-5 py-6 border-b-4 border-transparent hover:border-blue-600 font-semibold">PARTNERS<i class="fa-solid fa-angle-down pl-2 group-hover:-rotate-180 duration-300"></i></li>
+                <li class="group inline-block px-5 py-6 border-b-4 border-transparent hover:border-blue-600 font-semibold">USEFUL INFO<i class="fa-solid fa-angle-down pl-2 group-hover:-rotate-180 duration-300"></i></li>
+            </ul>
+        </nav>
+        <div>
+            <button class="text-xs font-bold text-[#0070BA] bg-transparent border border-[#0070BA] rounded-[50px] px-6 py-2.5">Log In</button>
+            <button class="hidden laptop:inline text-xs font-bold text-white bg-[#0070BA] border rounded-[50px] px-5 py-2.5">Sign Up</button>
+        </div>
+    </header>
+
+    <!--Hero Section-->
+
+    <section id="hero">
+        <div class="h-full bg-no-repeat bg-right-bottom bg-cover laptop:bg-right-top bg-neutral-600 bg-blend-overlay laptop:bg-transparent" style="background-image: url(./assets/images/hero-banner-desktop-2.jpg);">
+            <div class="w-[90%] max-w-[1080px] mx-auto flex flex-col justify-center text-white pt-[4.5rem] pb-[5.75rem] tablet:py-[6.5rem]">
+                <div class="text-left">
+                    <h1 class="w-[95%] laptop:w-[48%] tablet:w-[66%] text-5xl font-bold">Sell just about anywhere in the world.</h1>
+                    <p class="w-[95%] laptop:w-[44%] tablet:w-[66%] text-2xl font-semibold leading-8 my-6">Whether you have an online shop or need to accept payments remotely, we can help you get paid fast.</p>
+                </div>
+                <div class="space-x-4">
+                    <button class="font-bold border border-white rounded-[50px] px-4 py-1">Sign Up</button>
+                    <button class="font-bold border border-white rounded-[50px] px-4 py-1">Connect With Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Banner-->
+
+    <section id="business-banner" class="bg-[#001435] text-white">
+        <div class="w-[90%] max-w-[1080px] py-10 tablet:py-12 mx-auto flex flex-col justify-center items-center gap-6 text-center tablet:text-left tablet:flex-row tablet:justify-between tablet:items-center">
+            <div>
+                <h2 class="text-2xl font-bold phone:mb-4 laptop:mb-0">Looking for PayPal Business Solutions?</h2>
+                <p class="text-xl font-semibold">Across regions and around the world, we are here to support you.</p>
+            </div>
+            <button class="bg-[#0070E0] rounded-[50px] px-[1.65rem] py-2 text-sm font-semibold">PayPal for business</button>
+        </div>
+    </section>
+
+    <!-- Cards Section-->
+
+    <section id="cards" class="w-[90%] max-w-[1080px] mx-auto mb-14">
+        <h2 class="text-center text-[#001C64] text-4xl font-bold leading-[1.4] my-[3.4rem]">Find more ways to shop with PayPal for you.</h2>
+        <div class="flex flex-col tablet:flex-row tablet:justify-between tablet:gap-0 gap-10 text-center tablet:text-left">
+            <div class="w-full tablet:w-[32%] flex flex-col justify-between tablet:items-start items-center">
+                <div>
+                    <img class="tablet:w-full w-full max-w-[320px] rounded-2xl mb-5 mx-auto" src="/assets/images/shopping-mall-m3-1.jpg" alt="shopping-img">
+                    <h3 class="text-[#001C64] text-2xl font-bold w-[66%] mx-auto">The world is your shopping mall.</h3>
+                    <p class="text-[#001435] font-medium my-2">From big brands to little boutiques, you can shop safely at over millions of online stores with PayPal.</p>
+                </div>
+                <button class="text-white text-sm font-semibold bg-[#0070E0] rounded-[50px] px-5 py-2.5 mt-3">Shop Now</button>
+            </div>
+            <div class="w-full tablet:w-[32%] flex flex-col tablet:items-start items-center justify-between mx-auto">
+                <div>
+                    <img class="tablet:w-full w-full max-w-[320px] rounded-2xl mb-5 mx-auto" src="assets/images/preferred-card-m3-2.jpg" alt="card-payment">
+                    <h3 class="text-[#001C64] text-2xl font-bold w-[66%] mx-auto">Pay with your preferred card.</h3>
+                    <p class="text-[#001435] font-medium my-2">Link all your cards and choose which one to use at checkout. Shopping online has never been this easy. You can also keep earning rewards from your favourite cards.¹</p>
+                </div>
+                <button class="text-white text-sm font-semibold bg-[#0070E0] rounded-[50px] px-5 py-2.5 mt-3">Link a Card Now</button>
+            </div>
+            <div class="w-full tablet:w-[32%] flex flex-col tablet:items-start items-center justify-between mx-auto">
+                <div>
+                    <img class="tablet:w-full w-full max-w-[320px] rounded-2xl mb-5 mx-auto" src="assets/images/online-confidence-m3-3.jpg" alt="shop-online">
+                    <h3 class="text-[#001C64] text-2xl font-bold w-[66%] mx-auto">Shop online with confidence.</h3>
+                    <p class="text-[#001435] font-medium my-2">Shop online with confidence - with 24/7 fraud monitoring and Buyer Protection² on eligible purchases. <span class="text-blue-600"><a href="#">Terms and limitations apply.</a></span></p>
+                </div>
+                <button class="text-white text-sm font-semibold bg-[#0070E0] rounded-[50px] px-5 py-2.5 mt-3">Find Out More</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Phone Banner-->
+
+    <section id="mobile-banner" class="bg-[#001435]">
+        <div class="max-w-[1080px] w-[90%] mx-auto flex-col tablet:flex-row items-center tablet:relative pt-[3rem] tablet:py-[4rem] text-center tablet:text-left">
+            <div class="w-[90%] tablet:w-[42%] text-white mx-auto tablet:mx-0">
+                <div class="mb-14">
+                    <h2 class="text-4xl font-bold">Make and receive payments with ease.</h2>
+                    <br>
+                    <h3 class="text-2xl font-bold">Popular payments, happy customers.</h3>
+                    <p class="font-medium tablet:pr-12 my-5">Help maximise conversion and reduce cart abandonment with a wide range of digital payment options, customisable in one account.</p>
+                    <button class="text-sm font-semibold bg-[#0070E0] rounded-[50px] px-5 py-1.5">Optimise Checkout</button>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Invoice and get paid fast.</h3>
+                    <p class="font-medium my-5 tablet:pr-12">Send unlimited invoices that customers can pay even if they don't have a PayPal account - with Seller Protection from fraud and unauthorised transactions.<sup>3</sup></p>
+                    <button class="text-sm font-semibold bg-[#0070E0] rounded-[50px] px-5 py-1.5">Send an Invoice</button>
+                </div>
+            </div>
+            <div class="mt-12 tablet:mt-0">
+                <img class="w-full max-w-[90%] mx-auto tablet:mx-0 tablet:max-w-[42%] laptop:max-w-[48%] tablet:absolute right-20 bottom-0" src="assets/images/paypal-for-business-m3-4.png" alt="paypal-phone">
+            </div>
+        </div>
+    </section>
+
+    <!-- Paypal Numbers -->
+
+    <section id="paypal-numbers" class="bg-[#F3F2F7] py-[3.5rem]">
+        <h2 class="w-[90%] mx-auto text-center text-[#001C64] text-4xl font-bold pb-[3.5rem]">PayPal by the numbers.</h2>
+        <div class="w-[90%] max-w-[1080px] mx-auto text-center phone:text-left">
+            <div class="flex flex-col phone:flex-row justify-between mb-10 phone:gap-0 gap-10">
+                <div class="phone:w-[47%] laptop:w-1/2 flex flex-col phone:flex-row items-center justify-center phone:justify-normal phone:gap-0 gap-10">
+                    <img src="assets/images/active-account-m4-1.png" alt="accounts" height="80" width="80">
+                    <h3 class="text-2xl font-bold">427M active accounts.<sup>4</sup></h3>
+                </div>
+                <div class="phone:w-[47%] laptop:w-1/2 flex flex-col phone:flex-row items-center justify-center phone:justify-normal phone:gap-0 gap-10">
+                    <img src="assets/images/payment-tansactions-m4-2.png" alt="transactions" height="80" width="80">
+                    <h3 class="text-2xl font-bold">6.5B Total payment transactions.<sup>6</sup></h3>
+                </div>
+            </div>
+            <div class="flex flex-col phone:flex-row justify-between phone:gap-0 gap-10">
+                <div class="phone:w-[47%] laptop:w-1/2 flex flex-col phone:flex-row items-center justify-center phone:justify-normal phone:gap-0 gap-10">
+                    <img src="assets/images/payment-valume-m4-3.png" alt="payment-volume" height="80" width="80">
+                    <h3 class="text-2xl font-bold">$403.9B total payment volume.<sup>5</sup></h3>
+                </div>
+                <div class="phone:w-[47%] laptop:w-1/2 flex flex-col phone:flex-row items-center justify-center phone:justify-normal phone:gap-0 gap-10">
+                    <img src="assets/images/buyer-confidence-m4-4.png" alt="buyer-confidence" height="80" width="80">
+                    <h3 class="text-2xl font-bold">74% increase in buyer confidence.<sup>7</sup></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands -->
+
+    <section id="brands" class="w-[90%] max-w-[1080px] mx-auto py-[3.7rem]">
+        <h2 class="text-center text-[#001C64] text-4xl font-bold pb-[3.5rem]">Shop from brands you love.</h2>
+        <div class="flex phone:flex-row flex-col justify-center items-center phone:gap-8 gap-14 flex-wrap">
+            <div class="w-[50%] phone:w-[14%] laptop:w-1/6 phone:max-w-[125px]"><img src="assets/images/spotify-premium.png" alt="spotify"></div>
+            <div class="w-[50%] phone:w-[14%] laptop:w-1/6 phone:max-w-[125px]"><img src="assets/images/asos.png" alt="asos"></div>
+            <div class="w-[50%] phone:w-[14%] laptop:w-1/6 phone:max-w-[125px]"><img src="assets/images/grab.png" alt="grab"></div>
+            <div class="w-[50%] phone:w-[14%] laptop:w-1/6 phone:max-w-[125px]"><img src="assets/images/qoo10.png" alt="qoo10"></div>
+            <div class="w-[80%] phone:w-[17%] laptop:w-1/6 phone:max-w-[165px]"><img src="assets/images/foodpanda.png" alt="foodpanda"></div>
+        </div>
+    </section>
+
+    <!-- Join Banner -->
+
+    <section id="join-banner" class="bg-[#0070E0] py-[3rem]">
+        <div class="w-[94%] laptop:max-w-[1080px] mx-auto text-center">
+            <h2 class="text-white text-4xl font-bold mb-11">Join the global community of PayPal users who are sending, spending, and receiving money securely every day.</h2>
+            <button class="text-[#001C64] text-sm font-bold opacity-95 bg-white rounded-[50px] px-6 py-2.5">Sign Up Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer" class="py-16">
+        <div class="w-[90%] max-w-[1080px] mx-auto">
+            <div>
+                <p class="opacity-75 mb-10">Terms & Conditions: <br> * Buyer Protection is available on eligible purchases only. See the Buyer Protection section of the <a href="#"><ins> User Agreement</ins></a> for more information. <br> ** Subject to issuer's reward programme terms and conditions. <br><br>
+                <sup>1</sup> Reward scheme terms may differ when using PayPal. Please refer to your card issuer. <br>
+                <sup>2</sup> For eligible purchases within 180 days of payment. <a href="#"><ins>Terms and conditions apply</ins></a>. <br>
+                <sup>3</sup> Available on eligible purchases. <a href="#"><ins>Limitations apply</ins></a>. <br>
+                <sup>4</sup> PayPal Earnings-Q1, 2024, based on PayPal internal data. Active accounts are accounts that have completed a transaction within the past 12 months. <br>
+                <sup>5</sup> PayPal Earnings-Q1, 2024, based on PayPal internal data. <br>
+                <sup>6</sup> PayPal Earnings-Q1, 2024, based on PayPal internal data. <br>
+                <sup>7</sup> Nielsen, commissioned by PayPal, Nielsen Media Attitudinal Survey of USA (Feb 2023) with 3,999 recent purchasers (past 2 weeks) from large enterprise merchants, including 1,999 PayPal transactions & 2,000 non-PayPal transactions. Base N. PayPal users = 3,350. <br><br>PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the terms and conditions carefully. <br><br>When you visit or interact with our sites, services, applications, tools or messaging, we or our authorised service providers may use cookies, web beacons, and other similar technologies for storing information to help provide you with a better, faster and safer experience and for advertising purposes. Learn more <a href="#"><ins>here</ins></a>.</p>
+            </div>
+            <div class="block laptop:flex justify-between">
+                <a class="laptop:hidden" href="#"><img class="opacity-40 mb-5 laptop:mt-0" src="assets/images/india.png" alt="indian-flag" width="24"></a>
+                <div class="flex gap-4 text-sm font-bold opacity-70 flex-wrap">
+                     <a class="hover:underline" href="#">Help</a>
+                     <a class="hover:underline" href="#">Contact</a>
+                     <a class="hover:underline" href="#">Fees</a>
+                     <a class="hover:underline" href="#">Security</a>
+                     <a class="hover:underline" href="#">Shop</a>
+                </div>
+                <a href="#"><img class="hidden laptop:inline-block opacity-40 mt-5 laptop:mt-0" src="assets/images/india.png" alt="indian-flag" width="24"></a>
+            </div>
+            <div class="w-full h-px bg-gray-300 mt-1.5"></div>
+            <div class="block laptop:flex justify-between mt-4 mb-2 laptop:my-4">
+                <div class="flex gap-4 text-sm font-bold opacity-55 mb-4 laptop:m-0 flex-wrap">
+                     <a class="hover:underline" href="#">About</a>
+                     <a class="hover:underline" href="#">Newsrooms</a>
+                     <a class="hover:underline" href="#">Jobs</a>
+                     <a class="hover:underline" href="#">Developers</a>
+                     <a class="hover:underline" href="#">Partners</a>
+                </div>
+                <div class="flex gap-4 text-sm font-bold opacity-55 flex-wrap">
+                     <p>&copy;1999-2024</p>
+                     <a class="hover:underline" href="#">Accessibility</a>
+                     <a class="hover:underline" href="#">Cookies</a>
+                     <a class="hover:underline" href="#">Privacy</a>
+                     <a class="hover:underline" href="#">CSR</a>
+                     <a class="hover:underline" href="#">Annual Returns</a>
+                     <a class="hover:underline" href="#">Legal</a>
+                </div>
+            </div>
+            <div>
+                <p class="text-[0.80rem] font-medium leading-[1.7] opacity-60">PayPal Services in India are provided by PayPal Payments Private Limited (CIN U74990MH2009PTC194653). Users are advised to read the <span class="text-[#0070E0]"><a class="hover:underline" href="#">terms and conditions</a></span> carefully. <br><br> When you visit or interact with our sites, services, applications, tools or messaging, we or our authorised service providers may use cookies, web beacons, and other similar technologies for storing information to help provide you with a better, faster and safer experience and for advertising purposes. Learn more <span class="text-[#0070E0]"><a class="hover:underline" href="#">here</a></span>.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
